@@ -1,38 +1,51 @@
-.App {
+.juego-banderas {
+  font-family: Arial, sans-serif;
   text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.juego-banderas img {
+  width: 300px;
+  margin: 20px 0;
+  border: 3px solid #ddd;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.juego-banderas input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 10px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.juego-banderas button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.juego-banderas button:hover {
+  background-color: #45a049;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.juego-banderas ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.juego-banderas li {
+  background-color: #e7e7e7;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
 }
